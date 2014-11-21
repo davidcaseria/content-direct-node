@@ -1,0 +1,46 @@
+{
+  "name": "content-direct",
+  "version": "0.1.0",
+  "main": "lib/content-direct-node.js",
+  "description": "Node.js bindings for the Content Direct API.",
+  "homepage": "http://contentdirect.csgi.com",
+  "bugs": "https://github.com/davidcaseria/content-direct-node/issues",
+  "author": {
+    "name": "David Caseria",
+    "email": "davidcaseria@gmail.com",
+    "url": "davidcaseria.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidcaseria/content-direct-node"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "content-direct-node",
+    "content",
+    "direct",
+    "monetization",
+    "management",
+    "system"
+  ],
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "extend": "^2.0.0",
+    "request": "^2.48.0"
+  }
+}
