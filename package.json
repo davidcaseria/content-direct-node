@@ -1,6 +1,6 @@
 {
   "name": "content-direct",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/content-direct-node.js",
   "description": "Node.js bindings for the Content Direct API.",
   "homepage": "http://contentdirect.csgi.com",
