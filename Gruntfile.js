@@ -13,13 +13,13 @@ module.exports = function (grunt) {
         files: ['package.json'],
         updateConfigs: [],
         commit: true,
-        commitMessage: 'Release v%VERSION%',
+        commitMessage: 'release v%VERSION%',
         commitFiles: ['package.json'],
         createTag: true,
         tagName: 'v%VERSION%',
-        tagMessage: 'Version %VERSION%',
+        tagMessage: 'version %VERSION%',
         push: true,
-        pushTo: 'upstream',
+        pushTo: 'origin',
         gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
         globalReplace: false
       }
